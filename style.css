@@ -31,7 +31,7 @@ ul {
 li {
   color: #14213D;
   display: inline-block;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin: 16px 20px;
@@ -54,8 +54,8 @@ li {
 }
 
 h1 {
-  color: #FCA311;
-  font-family: 'Ruda', sans-serif;
+  color: #FFF;
+  font-family: "Ruda", sans-serif;
   font-size: 72px;
   line-height: 60px;
   padding: 20px 10px;
@@ -64,8 +64,8 @@ h1 {
 }
 
 h2 {
-  color: #FCA311;
-  font-family: 'Ruda', sans-serif;
+  color: #FFF;
+  font-family: "Ruda", sans-serif;
   font-size: 42px;
   font-weight: 300;
   text-align: center;
@@ -74,7 +74,7 @@ h2 {
 
 h3 {
   color: #14213D;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -82,14 +82,14 @@ h3 {
 
 h4 {
   color: #FCA311;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   font-size: 24px;
   margin: 0px 0px 50px 0px;
 }
 
 p {
   color: #333;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
@@ -98,7 +98,7 @@ p {
   background-color: #14213D;
   background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   color: #FFF;
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 26px;
   padding: 14px;
 }
