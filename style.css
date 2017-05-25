@@ -1,16 +1,24 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #FFF;
+}
+
 html, body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #cover {
-  background: url("http://www.godisageek.com/wp-content/uploads/ESL.jpg") no-repeat center bottom;
+  background: url("ESL.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
-  height: 900px;
+  height: 60rem;
   position: relative;
-  top: -55px;
-  width: 100%;
+  top: -3rem;
+  max-width: 100%;
 }
 
 .navigation {
@@ -32,9 +40,9 @@ li {
   color: #14213D;
   display: inline-block;
   font-family: "Abel", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
-  margin: 16px 20px;
+  margin: 1rem 1.25rem;
   text-transform: uppercase;
 }
 
@@ -43,54 +51,57 @@ li {
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 280px;
-  width: 70%;
+  top: 17rem;
+  max-width: 70%;
+  height: auto;
 }
 
 .cover-content img {
-  border: 2px solid #000;
-  border-radius: 10px;
-  width: 15%;
+  border: 0.125rem solid #000;
+  border-radius: 0.625rem;
+  max-width: 15%;
+  height: auto;
 }
 
 h1 {
   color: #FFF;
   font-family: "Ruda", sans-serif;
-  font-size: 72px;
-  line-height: 60px;
-  padding: 20px 10px;
+  font-size: 4.5rem;
+  line-height: 3.75rem;
+  padding: 1.25rem 0.625rem;
   text-align: center;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  text-shadow: -0.1rem 0 #000, 0 0.1rem #000, 0.1rem 0 #000, 0 -0.1rem #000;
 }
 
 h2 {
   color: #FFF;
   font-family: "Ruda", sans-serif;
-  font-size: 42px;
+  font-size: 2.75rem;
   font-weight: 300;
   text-align: center;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  text-shadow: -0.1rem 0 #000, 0 0.1rem #000, 0.1rem 0 #000, 0 -0.1rem #000;
 }
 
 h3 {
   color: #14213D;
   font-family: "Abel", sans-serif;
-  font-size: 28px;
+  font-size: 1.8rem;
   text-align: center;
   text-transform: uppercase;
+  margin: 1rem 0rem 2rem 0rem;
 }
 
 h4 {
   color: #FCA311;
   font-family: "Abel", sans-serif;
-  font-size: 24px;
-  margin: 0px 0px 50px 0px;
+  font-size: 1.75rem;
+  margin: 0rem 0rem 3.125rem 0rem;
 }
 
 p {
   color: #333;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
 }
 
@@ -99,31 +110,52 @@ p {
   background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   color: #FFF;
   font-family: "Amatic SC", cursive;
-  font-size: 26px;
-  padding: 14px;
+  font-size: 2rem;
+  padding: 0.9rem;
 }
 
 .games {
   background: #EEEFF1;
   box-sizing: border-box;
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px 0px;
+  max-width: 90%;
+  height: auto;
+  margin: 1.25rem auto;
+  padding: 1.25rem 0rem;
   text-align: center;
 }
 
 .game {
   display: inline-block;
-  margin: 0px 2% 80px 2%;
+  margin: 0rem 2% 1rem 2%;
   text-align: center;
-  width: 35%;
+  max-width: 35%;
+  height: auto;
 }
 
-.game img, iframe {
-  border: 2px solid #000;
-  width: 100%;
+.game img {
+  border: 0.125rem solid #000;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.game iframe {
+  border: 0.125rem solid #000;
+  max-width: 100%;
+  display: block;
 }
 
 .blue {
   color: #14213D !important;
+}
+
+footer {
+  display: block;
+}
+
+.footer p {
+  color: #B2B2B2;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: center;
 }
