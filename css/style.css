@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import url("https://fonts.googleapis.com/css?family=Raleway:400, 600");
 @import url("https://fonts.googleapis.com/css?family=Catamaran:100|Pontano+Sans|Ruda:900");
 
@@ -15,7 +17,7 @@ html, body {
 }
 
 #cover {
-  background: url("imgs/ESL.jpg") no-repeat center bottom;
+  background: url("../img/ESL.jpg") no-repeat center bottom;
   background-size: cover;
   background-attachment: fixed;
   height: 60rem;
