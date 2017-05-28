@@ -110,13 +110,58 @@ p {
   font-weight: 300;
 }
 
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #14213D;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #14213D;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FCA311;
+}
+
+a:active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
+
 .button {
-  background-color: #14213D;
-  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  background-color: #005CE6;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #000;
   color: #FFF;
   font-family: "Amatic SC", cursive;
   font-size: 2rem;
   padding: 0.9rem;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: #FFF;
+}
+
+.button a:link{
+  text-decoration: none;
+  text-shadow: -0.05rem 0 #000, 0 0.05rem #000, 0.05rem 0 #000, 0 -0.05rem #000;
+  color: #FFF;
+}
+
+.button a:visited{
+  text-decoration: none;
+  text-shadow: -0.05rem 0 #000, 0 0.05rem #000, 0.05rem 0 #000, 0 -0.05rem #000;
+  color: #FFF;
 }
 
 .games {
