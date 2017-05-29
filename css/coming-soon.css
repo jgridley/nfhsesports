@@ -40,3 +40,62 @@ hr {
   max-width: 50%;
   height: auto;
 }
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFF;
+}
+
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FCA311;
+}
+
+a:active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
+
+footer {
+  display: block;
+}
+
+.footer p {
+  color: #B2B2B2;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #14213D;
+}
+
+.footer a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #14213D;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #FCA311;
+}
+
+.footer a:active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+}
