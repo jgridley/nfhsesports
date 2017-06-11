@@ -81,6 +81,13 @@ li {
   height: auto;
 }
 
+.onPage {
+  background-color: #2980b9;
+  border: 0.125rem solid #000;
+  border-radius: 0.625rem;
+  padding: 0.25rem;
+}
+
 .cover-content img {
   border: 0.125rem solid #000;
   border-radius: 0.625rem;
